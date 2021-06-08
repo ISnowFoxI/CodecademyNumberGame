@@ -2,7 +2,10 @@
   font-family: 'Nunito Sans';
   box-sizing: border-box;
 }
+html { 
+  overflow: hidden;
 
+}
 body {
   margin: 0 auto;
   padding: 3px;
@@ -172,6 +175,8 @@ input[type=number]::-webkit-inner-spin-button {
 }
 
 .instructions {
+  position: absolute;
+  bottom: 0;
   background-color: #ececec;
   width: 100%;
   display: flex;
